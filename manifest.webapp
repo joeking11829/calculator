@@ -1,7 +1,7 @@
 {
     "version": "alpha",
     "name": "Calculator",
-    "launch_path": "/calculator.html",
+    "launch_path": "/index.html",
     "description": "a Calculator",
     "icons": {
         "16": "/images/icon_calculator.png",
