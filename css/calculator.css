@@ -4,6 +4,8 @@
 * {
 	margin: 0;
 	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	
 	/* Better text styling */
@@ -92,11 +94,13 @@ html {
 	text-align: center;
 	
 	/* prevent selection of text inside keys */
+	-moz-user-select: none;
+	-webkit-user-select: none;
 	user-select: none;
-	
-	/* Smoothing out hover and active states using css3 transitions */
-	transition: top 0.2s ease, box-shadow 0.2s ease;
 }
+
+/* Smoothing out hover and active states using css3 transitions */
+/*	transition: top 0.2s ease, box-shadow 0.2s ease; */
 
 /* Remove right margins from operator keys */
 /* style different type of keys (operators/evaluate/clear) differently */
@@ -118,25 +122,6 @@ html {
 }
 
 /* Some hover effects */
-/*
-.keys span:hover {
-	background: #9c89f6;
-	box-shadow: 0px 4px #6b54d3;
-	color: white;
-}
-
-.keys span.eval:hover {
-	background: #abb850;
-	box-shadow: 0px 4px #717a33;
-	color: #ffffff;
-}
-
-.top span.clear:hover {
-	background: #f68991;
-	box-shadow: 0px 4px #d3545d;
-	color: white;
-}
-*/
 
 .keys span:hover {
 	box-shadow: 0px 4px #6b54d3;
@@ -162,39 +147,18 @@ html {
 .keys span:active {
 	top: 4px;
 	box-shadow: 0px 0px #6b54d3;
-	background: #9c89f6;
-	color: white;
 }
 
 .keys span.eval:active {
 	top: 4px;
 	box-shadow: 0px 0px #717a33;
-	background: #abb850;
-	color: #ffffff;
 }
 
 .top span.clear:active {
 	top: 4px;
 	box-shadow: 0px 0px #d3545d;
-	background: #f68991;
-	color: white;
 }
 */
-
-.keys span:active {
-	top: 4px;
-	box-shadow: 0px 0px #6b54d3;
-}
-
-.keys span.eval:active {
-	top: 4px;
-	box-shadow: 0px 0px #717a33;
-}
-
-.top span.clear:active {
-	top: 4px;
-	box-shadow: 0px 0px #d3545d;
-}
 
 
 
