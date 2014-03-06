@@ -15,7 +15,7 @@ var touchEvent = isTouch ? 'touchstart' : 'mousedown';
         keys[i].addEventListener(touchEvent, bindClickEventHandler.bind(keys[i]));
     }
 
-function bindClickEventHandler() {
+function bindClickEventHandler(evt) {
     
     var inputVal = input.textContent;
     var btnVal = this.textContent;
@@ -33,7 +33,7 @@ function bindClickEventHandler() {
     }
 
     // prevent page jumps
-	e.preventDefault();
+	//evt.preventDefault();
 };
 
 var func_clear = function func_clear() {
