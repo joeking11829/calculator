@@ -28,6 +28,8 @@ html {
     position: absolute;
     top: 135px;
     left: 465px;
+    
+    -webkit-transform: scale(2.5);
     transform: scale(2.5);
 
 	width: 325px;
@@ -94,6 +96,7 @@ html {
 	text-align: center;
 	
 	/* Smoothing out hover and active states using css3 transitions */
+	-webkit-transition: top 0.2s ease, box-shadow 0.2s ease;
     transition: top 0.2s ease, box-shadow 0.2s ease;
 	
 	/* prevent selection of text inside keys */
