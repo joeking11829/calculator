@@ -26,17 +26,17 @@ html {
 #calculator {
 
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 0px;
     
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 
 	width: 325px;
 	height: auto;
 	
-	margin: 0;
-	padding: 20px 20px 9px;
+	margin: 0px;
+	padding: 0px;
 	
 	background: #9dd2ea;
     background: linear-gradient(#9dd2ea, #8bceec);
