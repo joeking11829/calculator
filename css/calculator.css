@@ -16,7 +16,8 @@
 
 /* A nice BG gradient */
 html {
-	height: 100%;
+	height: 400px;
+	width: 400px;
 	background: white;
 	background: radial-gradient(circle, #fff 20%, #ccc);
 	background-size: cover;
