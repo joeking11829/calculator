@@ -29,13 +29,13 @@ html {
     top: 0px;
     left: 0px;
     
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 
 	width: 325px;
 	height: auto;
 	
-	margin: 100px auto;
+	margin: 0;
 	padding: 20px 20px 9px;
 	
 	background: #9dd2ea;
