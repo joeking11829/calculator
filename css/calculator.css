@@ -26,11 +26,11 @@ html {
 #calculator {
 
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 0px;
     
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 
 	width: 325px;
 	height: auto;
