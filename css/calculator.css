@@ -29,8 +29,8 @@ html {
     top: 135px;
     left: 465px;
     
-    -webkit-transform: scale(2.5);
-    transform: scale(2.5);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
 
 	width: 325px;
 	height: auto;
