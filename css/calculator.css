@@ -16,8 +16,7 @@
 
 /* A nice BG gradient */
 html {
-	height: 400px;
-	width: 400px;
+	height: 100%;
 	background: white;
 	background: radial-gradient(circle, #fff 20%, #ccc);
 	background-size: cover;
@@ -27,8 +26,8 @@ html {
 #calculator {
 
     position: absolute;
-    top: 135px;
-    left: 465px;
+    top: 0px;
+    left: 0px;
     
     -webkit-transform: scale(1.0);
     transform: scale(1.0);
